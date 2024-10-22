@@ -1,0 +1,83 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Certificate Wrapper */
+.certificate-wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+}
+
+/* Header Section */
+.certificate-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certificate-header h1 {
+    font-size: 24px;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.certificate-header p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.certificate-header span {
+    font-weight: bold;
+    color: #007acc;
+}
+
+/* Certificate Image Container */
+.certificate-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.certificate-image {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Download Button */
+.download-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-button a {
+    text-decoration: none;
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button a:hover {
+    background-color: #005f99;
+}
+
